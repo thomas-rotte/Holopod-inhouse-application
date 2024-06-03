@@ -1,0 +1,22 @@
+.test{
+  background-color: blue;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+:host{
+  height: 100vh;
+  width: 100vw;
+}
+.video{
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.back-arrow {
+  top: 100px;
+  left: 60px;
+  width: 120px;
+  position: absolute;
+  z-index: 10;
+}

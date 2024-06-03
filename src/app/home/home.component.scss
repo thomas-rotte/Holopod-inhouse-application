@@ -1,0 +1,24 @@
+.tile-list {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 1070px;
+}
+
+:host {
+  display: block;
+  height: 3840px;
+}
+
+.full-screen {
+  height: 3840px;
+  width: 2160px;
+}
+
+.layout {
+  display: grid;
+  place-items: center;
+}
+.body{
+  font-family: sans-serif;
+}

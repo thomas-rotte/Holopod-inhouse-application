@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* use viewport-relative units to cover page fully */
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* include border and padding in element width and height */
+* {
+  box-sizing: border-box;
+}
+
+
+#title {
+  height: 150px;
+  width: 400px;
+}
+
+#board {
+  width: 360px;
+  height: 360px;
+  background-color: lightblue;
+  border: 10px solid #0c67ae;
+
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#board img {
+  width: 118px;
+  height: 118px;
+  border: 1px solid #0c67ae;
+}
